@@ -19,7 +19,7 @@ cin >> n2;
 
 cout << "Number #3: ";
 cin >> n3;
-
+//runs sortMe function
 sortMe(n1, n2, n3);
 
 return (0);
