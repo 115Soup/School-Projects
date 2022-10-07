@@ -5,11 +5,11 @@
 #include <iomanip>
 using namespace std;
 
-void sortMe(float n1, float n2, float n3);
+void sortMe(double n1, double n2, double n3);
 
 int main(){
 
-float n1, n2, n3; 
+double n1, n2, n3; 
 //Prompts user for 3 numbers as imput
 cout << "Number #1: ";
 cin >> n1;
@@ -27,9 +27,9 @@ return (0);
 
 }
 //sorts the numbers from smallest to largest, and outputs them to user
-void sortMe(float n1, float n2, float n3){
+void sortMe(double n1, double n2, double n3){
 
-float small, med, large;
+double small, med, large;
 
 if ((n1 < n2) && (n1 < n3)){
     small = n1;
