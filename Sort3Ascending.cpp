@@ -61,5 +61,4 @@ if ((n3 < n1) && (n3 < n2)){
 }
 
 cout << endl << "Sorted order: " << small << ", " << med << ", " << large << endl;
-
 }
